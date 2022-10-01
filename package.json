@@ -1,0 +1,16 @@
+{
+  "name": "capybotra",
+  "version": "1.0.0",
+  "description": "Bot for Hourly Capybaras",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "The J Hive",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.1.0",
+    "discord.js": "^14.5.0",
+    "node-fetch": "^2.6.7"
+  }
+}
