@@ -15,7 +15,7 @@ client.login(token);
 const job = new CronJob(
     '0 * * * *',
     function () {
-        fetch('https://api.capy.lol/v1/capybara')
+        fetch('https://api.capy.lol/v1/capybara?json=true')
             .then(res => res.json())
             .then(json => client.channels.cache.get('1025262706040774708').send(json.data.url));
     }, // I don't know how this works, and I'm not gonna try to pretend I do either.
